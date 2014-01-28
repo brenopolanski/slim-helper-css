@@ -1,0 +1,87 @@
+/* Borders */
+
+.SH-border { border: none !important; }
+.SH-btn { border-top: none !important; }
+.SH-brn { border-right: none !important; }
+.SH-bbn { border-bottom: none !important; }
+.SH-bln { border-left: none !important; }
+
+/* Margins */
+
+.SH-mt5 { margin-top: 5px; }
+.SH-mr5 { margin-right: 5px; }
+.SH-mb5 { margin-bottom: 5px; }
+.SH-ml5 { margin-left: 5px; }
+
+.SH-mt10 { margin-top: 10px; }
+.SH-mr10 { margin-right: 10px; }
+.SH-mb10 { margin-bottom: 10px; }
+.SH-ml10 { margin-left: 10px; }
+
+.SH-mt15 { margin-top: 15px; }
+.SH-mr15 { margin-right: 15px; }
+.SH-mb15 { margin-bottom: 15px; }
+.SH-ml15 { margin-left: 15px; }
+
+.SH-mt20 { margin-top: 20px; }
+.SH-mr20 { margin-right: 20px; }
+.SH-mb20 { margin-bottom: 20px; }
+.SH-ml20 { margin-left: 20px; }
+
+.SH-mt25 { margin-top: 25px; }
+.SH-mr25 { margin-right: 25px; }
+.SH-mb25 { margin-bottom: 25px; }
+.SH-ml25 { margin-left: 25px; }
+
+.SH-mt30 { margin-top: 30px; }
+.SH-mr30 { margin-right: 30px; }
+.SH-mb30 { margin-bottom: 30px; }
+.SH-ml30 { margin-left: 30px; }
+
+/* Paddings */
+
+.SH-pt5 { padding-top: 5px; }
+.SH-pr5 { padding-right: 5px; }
+.SH-pb5 { padding-bottom: 5px; }
+.SH-pl5 { padding-left: 5px; }
+
+.SH-pt10 { padding-top: 10px; }
+.SH-pr10 { padding-right: 10px; }
+.SH-pb10 { padding-bottom: 10px; }
+.SH-pl10 { padding-left: 10px; }
+
+.SH-pt15 { padding-top: 15px; }
+.SH-pr15 { padding-right: 15px; }
+.SH-pb15 { padding-bottom: 15px; }
+.SH-pl15 { padding-left: 15px; }
+
+.SH-pt20 { padding-top: 20px; }
+.SH-pr20 { padding-right: 20px; }
+.SH-pb20 { padding-bottom: 20px; }
+.SH-pl20 { padding-left: 20px; }
+
+.SH-pt25 { padding-top: 25px; }
+.SH-pr25 { padding-right: 25px; }
+.SH-pb25 { padding-bottom: 25px; }
+.SH-pl25 { padding-left: 25px; }
+
+.SH-pt30 { padding-top: 30px; }
+.SH-pr30 { padding-right: 30px; }
+.SH-pb30 { padding-bottom: 30px; }
+.SH-pl30 { padding-left: 30px; }
+
+/* Block Positions */
+
+.SH-block { display: block; }
+
+.SH-pos-rel { position: relative; }
+.SH-pos-abs { position: absolute; }
+.SH-pos-fxd { position: fixed; }
+
+.SH-left { float: left; }
+.SH-right { float: right; }
+
+.SH-clear { clear: both; }
+
+.SH-ltr { direction: ltr; }
+.SH-rtl { direction: rtl; }
