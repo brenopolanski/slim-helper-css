@@ -95,10 +95,72 @@
 .SH-left { float: left; }
 .SH-right { float: right; }
 
+.SH-center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .SH-clear { clear: both; }
 
 .SH-ltr { direction: ltr; }
 .SH-rtl { direction: rtl; }
+
+/* Width */
+
+/* pixel */
+
+.SH-w100-px { width: 100px; }
+.SH-w200-px { width: 200px; }
+.SH-w300-px { width: 300px; }
+.SH-w400-px { width: 400px; }
+.SH-w500-px { width: 500px; }
+.SH-w600-px { width: 600px; }
+.SH-w700-px { width: 700px; }
+.SH-w800-px { width: 800px; }
+.SH-w900-px { width: 900px; }
+.SH-w1k-px { width: 1000px; }
+
+/* percent */
+
+.SH-w10-pct { width: 10%; }
+.SH-w20-pct { width: 20%; }
+.SH-w30-pct { width: 30%; }
+.SH-w40-pct { width: 40%; }
+.SH-w50-pct { width: 50%; }
+.SH-w60-pct { width: 60%; }
+.SH-w70-pct { width: 70%; }
+.SH-w80-pct { width: 80%; }
+.SH-w90-pct { width: 90%; }
+.SH-w100-pct { width: 100%; }
+
+/* height */
+
+/* pixel */
+
+.SH-h100-px { height: 100px; }
+.SH-h200-px { height: 200px; }
+.SH-h300-px { height: 300px; }
+.SH-h400-px { height: 400px; }
+.SH-h500-px { height: 500px; }
+.SH-h600-px { height: 600px; }
+.SH-h700-px { height: 700px; }
+.SH-h800-px { height: 800px; }
+.SH-h900-px { height: 900px; }
+.SH-h1k-px { height: 1000px; }
+
+/* percent */
+
+.SH-h10-pct { height: 10%; }
+.SH-h20-pct { height: 20%; }
+.SH-h30-pct { height: 30%; }
+.SH-h40-pct { height: 40%; }
+.SH-h50-pct { height: 50%; }
+.SH-h60-pct { height: 60%; }
+.SH-h70-pct { height: 70%; }
+.SH-h80-pct { height: 80%; }
+.SH-h90-pct { height: 90%; }
+.SH-h100-pct { height: 100%; }
 
 /* Font Sizes */
 
@@ -123,6 +185,16 @@
 .SH-f28 { font-size: 28px; }
 .SH-f29 { font-size: 29px; }
 .SH-f30 { font-size: 30px; }
+
+/* Font/Text settings */
+
+.SH-b { font-weight: bold; }
+.SH-i { font-style: italic; }
+
+.SH-vam { vertical-align: middle; }
+.SH-tac { text-align: center; }
+.SH-tar { text-align: right; }
+.SH-taj { text-align: justify; }
 
 /* Effect Blink */
 
