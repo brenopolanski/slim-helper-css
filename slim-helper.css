@@ -1,4 +1,34 @@
-/* Borders */
+/*
+* Copyright 2014, All Rights Reserved.
+*
+* Code licensed under the BSD License:
+* https://github.com/brenopolanski/slim-helper-css/blob/master/LICENSE.md
+*
+* @author Breno Polanski <breno.polanski@gmail.com>
+*
+* Summary:
+*
+*	0. BORDERS
+*	1. MARGINS
+*	2. PADDINGS
+*	3. BLOCK POSITIONS
+*	4. WIDTH
+*	5. HEIGHT
+*	6. FONT SIZES
+*	7. FONT/TEXT SETTINGS
+*	8. OTHERS
+*	9. BORDER RADIUS
+*	10. MEDIA QUERIES
+*	11. EFFECTS
+*		- 11.1. 
+*		- 11.2. 
+*		- 11.3. 
+*		- 11.4. 
+*/
+
+/* ==========================================================================
+   0. BORDERS
+   ========================================================================== */
 
 .SH-bn { border: none !important; }
 .SH-btn { border-top: none !important; }
@@ -6,7 +36,9 @@
 .SH-bbn { border-bottom: none !important; }
 .SH-bln { border-left: none !important; }
 
-/* Margins */
+/* ==========================================================================
+   1. MARGINS
+   ========================================================================== */
 
 .SH-m5 { margin: 5px; }
 .SH-m10 { margin: 10px; }
@@ -45,7 +77,9 @@
 .SH-mb30 { margin-bottom: 30px; }
 .SH-ml30 { margin-left: 30px; }
 
-/* Paddings */
+/* ==========================================================================
+   2. PADDINGS
+   ========================================================================== */
 
 .SH-p5 { padding: 5px; }
 .SH-p10 { padding: 10px; }
@@ -84,7 +118,9 @@
 .SH-pb30 { padding-bottom: 30px; }
 .SH-pl30 { padding-left: 30px; }
 
-/* Block Positions */
+/* ==========================================================================
+   3. BLOCK POSITIONS
+   ========================================================================== */
 
 .SH-block { display: block; }
 
@@ -106,7 +142,9 @@
 .SH-ltr { direction: ltr; }
 .SH-rtl { direction: rtl; }
 
-/* Width */
+/* ==========================================================================
+   4. WIDTH
+   ========================================================================== */
 
 /* pixel */
 
@@ -143,7 +181,9 @@
 .SH-w90-pct { width: 90%; }
 .SH-w100-pct { width: 100%; }
 
-/* height */
+/* ==========================================================================
+   5. HEIGHT
+   ========================================================================== */
 
 /* pixel */
 
@@ -180,7 +220,9 @@
 .SH-h90-pct { height: 90%; }
 .SH-h100-pct { height: 100%; }
 
-/* Font Sizes */
+/* ==========================================================================
+   6. FONT SIZES
+   ========================================================================== */
 
 .SH-f10 { font-size: 10px; }
 .SH-f11 { font-size: 11px; }
@@ -204,7 +246,9 @@
 .SH-f29 { font-size: 29px; }
 .SH-f30 { font-size: 30px; }
 
-/* Font/Text settings */
+/* ==========================================================================
+   7. FONT/TEXT SETTINGS
+   ========================================================================== */
 
 .SH-b { font-weight: bold; }
 .SH-i { font-style: italic; }
@@ -225,13 +269,17 @@
 .SH-wspw { white-space: pre-wrap; }
 .SH-wspl { white-space: pre-line; }
 
-/* Others */
+/* ==========================================================================
+   8. OTHERS
+   ========================================================================== */
 
 .SH-crop { overflow: hidden; }
 .SH-li { list-style: none !important; }
 .SH-txtarea-outln:focus, .SH-input-outln:focus { outline: none !important; }
 
-/* Border Radius */
+/* ==========================================================================
+   9. BORDER RADIUS
+   ========================================================================== */
 
 .SH-radius5 {
 	-webkit-border-radius: 5px;
@@ -254,21 +302,9 @@
 	border-radius: 20px;
 }
 
-/* Effect Smooth */
-
-.SH-smooth-2 {
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-}
-
-.SH-smooth-5 {
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-/* Media Queries */
+/* ==========================================================================
+   10. MEDIA QUERIES
+   ========================================================================== */
 
 .SH-hidden {
     display: none !important;
@@ -334,7 +370,27 @@
     }
 }
 
-/* Effect Blink */
+/* ==========================================================================
+   11. EFFECTS
+   ========================================================================== */
+
+/* 11.1. EFFECT SMOOTH
+   ========================================================================== */
+
+.SH-smooth-2 {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.SH-smooth-5 {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+/* 11.2. EFFECT BLINK
+   ========================================================================== */
 
 @-webkit-keyframes blink {
 	0% { opacity: 1; }
@@ -361,7 +417,8 @@
 	animation: blink 1s infinite;
 }
 
-/* Effect Spin */
+/* 11.3. EFFECT SPIN
+   ========================================================================== */
 
 @-webkit-keyframes spin {
 	0% { -webkit-transform: rotate(0deg); }
@@ -382,7 +439,8 @@
 	animation: spin 2s infinite linear;
 }
 
-/* Effect Rotate */
+/* 11.4. EFFECT ROTATE
+   ========================================================================== */
 
 .SH-rotate-90 {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
@@ -408,7 +466,8 @@
 	transform: rotate(270deg);
 }
 
-/* Effect Flip */
+/* 11.5. EFFECT FLIP
+   ========================================================================== */
 
 /* horizontal */
 
