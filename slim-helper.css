@@ -196,6 +196,49 @@
 .SH-tar { text-align: right; }
 .SH-taj { text-align: justify; }
 
+/* Others */
+
+.SH-css-crop { overflow: hidden; }
+.SH-li { list-style: none !important; }
+.SH-txtarea-outln:focus, .SH-input-outln:focus { outline: none !important; }
+
+/* Border Radius */
+
+.SH-radius5 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.SH-radius10 {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.SH-radius20 {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	border-radius: 20px;
+}
+
+/* Effect Smooth */
+
+.SH-smooth-2 {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.SH-smooth-5 {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
 /* Effect Blink */
 
 @-webkit-keyframes blink {
