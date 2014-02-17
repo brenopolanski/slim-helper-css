@@ -8,12 +8,12 @@
 
 /* Margins */
 
-.SH-mrg5 { margin: 5px; }
-.SH-mrg10 { margin: 10px; }
-.SH-mrg15 { margin: 15px; }
-.SH-mrg20 { margin: 20px; }
-.SH-mrg25 { margin: 25px; }
-.SH-mrg30 { margin: 30px; }
+.SH-m5 { margin: 5px; }
+.SH-m10 { margin: 10px; }
+.SH-m15 { margin: 15px; }
+.SH-m20 { margin: 20px; }
+.SH-m25 { margin: 25px; }
+.SH-m30 { margin: 30px; }
 
 .SH-mt5 { margin-top: 5px; }
 .SH-mr5 { margin-right: 5px; }
@@ -47,12 +47,12 @@
 
 /* Paddings */
 
-.SH-pdd5 { padding: 5px; }
-.SH-pdd10 { padding: 10px; }
-.SH-pdd15 { padding: 15px; }
-.SH-pdd20 { padding: 20px; }
-.SH-pdd25 { padding: 25px; }
-.SH-pdd30 { padding: 30px; }
+.SH-p5 { padding: 5px; }
+.SH-p10 { padding: 10px; }
+.SH-p15 { padding: 15px; }
+.SH-p20 { padding: 20px; }
+.SH-p25 { padding: 25px; }
+.SH-p30 { padding: 30px; }
 
 .SH-pt5 { padding-top: 5px; }
 .SH-pr5 { padding-right: 5px; }
@@ -110,6 +110,15 @@
 
 /* pixel */
 
+.SH-w10-px { width: 10px; }
+.SH-w20-px { width: 20px; }
+.SH-w30-px { width: 30px; }
+.SH-w40-px { width: 40px; }
+.SH-w50-px { width: 50px; }
+.SH-w60-px { width: 60px; }
+.SH-w70-px { width: 70px; }
+.SH-w80-px { width: 80px; }
+.SH-w90-px { width: 90px; }
 .SH-w100-px { width: 100px; }
 .SH-w200-px { width: 200px; }
 .SH-w300-px { width: 300px; }
@@ -138,6 +147,15 @@
 
 /* pixel */
 
+.SH-h10-px { height: 10px; }
+.SH-h20-px { height: 20px; }
+.SH-h30-px { height: 30px; }
+.SH-h40-px { height: 40px; }
+.SH-h50-px { height: 50px; }
+.SH-h60-px { height: 60px; }
+.SH-h70-px { height: 70px; }
+.SH-h80-px { height: 80px; }
+.SH-h90-px { height: 90px; }
 .SH-h100-px { height: 100px; }
 .SH-h200-px { height: 200px; }
 .SH-h300-px { height: 300px; }
@@ -192,13 +210,24 @@
 .SH-i { font-style: italic; }
 
 .SH-vam { vertical-align: middle; }
-.SH-tac { text-align: center; }
+
 .SH-tar { text-align: right; }
+.SH-tac { text-align: center; }
 .SH-taj { text-align: justify; }
+
+.SH-tdu { text-decoration: underline; }
+
+.SH-ttc { text-transform: capitalize; }
+.SH-ttu { text-transform: uppercase; }
+.SH-ttl { text-transform: lowercase; }
+
+.SH-wsn { white-space: nowrap; }
+.SH-wspw { white-space: pre-wrap; }
+.SH-wspl { white-space: pre-line; }
 
 /* Others */
 
-.SH-css-crop { overflow: hidden; }
+.SH-crop { overflow: hidden; }
 .SH-li { list-style: none !important; }
 .SH-txtarea-outln:focus, .SH-input-outln:focus { outline: none !important; }
 
