@@ -2,6 +2,8 @@
 
 CSS class collection helpful for the daily work with HTML.
 
+Inspired by [HelperCSS](https://github.com/brunomonteiro3/HelperCSS "HelperCSS").
+
 **Notice:** the suggested names for the classes on this files are the shortest as possible, in some cases it can make your code unreadable in team works, so feel free to change the name of the class to suit the way you work.
 
 ## Browser Support
