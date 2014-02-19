@@ -9,7 +9,7 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-; Style of indent in file CSS slim-helper.css
+; Style of indentation in file slim-helper.css
 [slim-helper.css]
 indent_style = tab
 indent_size = 4
