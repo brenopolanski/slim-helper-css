@@ -47,9 +47,9 @@ Example of icon spin:
       
 ### Example 5
 
-Example of `div` with background blue and border radius of 5px:
+Example of `div` with background orange and border radius of 5px:
 
-      <div class="SH-w100-px SH-h100-px SH-radius5 SH-blue"></div>
+      <div class="SH-w100-px SH-h100-px SH-radius5 SH-orange"></div>
 
 ## Browser Support
 
