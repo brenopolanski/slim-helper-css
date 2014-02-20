@@ -1,7 +1,7 @@
 {
   "name": "slim-helper-css",
   "version": "0.2.0",
-  "description": "CSS class collection helpful for the daily work with HTML.",
+  "description": "Collection CSS helpful for the daily work with HTML",
   "repository": {
     "type": "git",
     "url": "https://github.com/brenopolanski/slim-helper-css"
@@ -14,10 +14,15 @@
     "name": "Breno Polanski",
     "email": "brenopolanski@gmail.com",
     "web": "http://brenopolanski.com",
-    "twitter": "brenopolanski",
+    "twitter": "brenopolanski"
   },
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/brenopolanski/slim-helper-css/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-autoprefixer": "~0.7.1",
+    "grunt-contrib-cssmin": "~0.8.0"
   }
 }
