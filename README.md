@@ -23,25 +23,25 @@ Using `slim-helper.css`, your other CSS files will have the lines reduced becaus
 
 Example of **bold** title:
 
-      <h1 class="SH-b">Example title</h1>
+      <h1 class="sh-b">Example title</h1>
       
 ### Example 2
 
 Example of *italic* title:
 
-      <h1 class="SH-i">Example title</h1>
+      <h1 class="sh-i">Example title</h1>
       
 ### Example 3
 
 Example of text with size 11px and aligment for right:
 
-      <p class="SH-f11 SH-tar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="sh-f11 sh-tar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       
 ### Example 4
 
 Example of icon spin:
 
-      <div class="SH-spin">
+      <div class="sh-spin">
         <img src="img/loader.png" alt="">
       </div>
       
@@ -49,7 +49,7 @@ Example of icon spin:
 
 Example of `div` with background orange and border radius of 5px:
 
-      <div class="SH-w100-px SH-h100-px SH-radius5 SH-orange"></div>
+      <div class="sh-w100-px sh-h100-px sh-radius5 sh-orange"></div>
 
 ## Browser Support
 
