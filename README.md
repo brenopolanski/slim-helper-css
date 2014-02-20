@@ -12,7 +12,7 @@ Inspired by *brunomonteiro3* [HelperCSS](https://github.com/brunomonteiro3/Helpe
 2. Insert the `slim-helper.css` in your project:
 
   ```
-  <link rel="stylesheet" href="/css/slim-helper.css">
+  <link rel="stylesheet" href="css/slim-helper.css">
   ```
   
 ## Usage
@@ -42,7 +42,7 @@ Example of text with size 11px and aligment for right:
 Example of icon spin:
 
       <div class="SH-spin">
-        <img src="/img/loader.png" alt="">
+        <img src="img/loader.png" alt="">
       </div>
       
 ### Example 5
