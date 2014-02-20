@@ -5,6 +5,7 @@
 * https://github.com/brenopolanski/slim-helper-css/blob/master/LICENSE.md
 *
 * @author Breno Polanski <breno.polanski@gmail.com>
+* Release version 0.1.0
 *
 * Summary:
 *
@@ -18,13 +19,14 @@
 *	7. FONT/TEXT SETTINGS
 *	8. OTHERS
 *	9. BORDER RADIUS
-*	10. MEDIA QUERIES
-*	11. EFFECTS
-*		- 11.1. EFFECT SMOOTH
-*		- 11.2. EFFECT BLINK
-*		- 11.3. EFFECT SPIN
-*		- 11.4. EFFECT ROTATE
-*		- 11.5. EFFECT FLIP
+*	10. FLAT UI COLORS
+*	11. MEDIA QUERIES
+*	12. EFFECTS
+*		- 12.1. EFFECT SMOOTH
+*		- 12.2. EFFECT BLINK
+*		- 12.3. EFFECT SPIN
+*		- 12.4. EFFECT ROTATE
+*		- 12.5. EFFECT FLIP
 */
 
 /* ==========================================================================
@@ -286,7 +288,36 @@
 }
 
 /* ==========================================================================
-   10. MEDIA QUERIES
+   10. FLAT UI COLORS
+   ========================================================================== */
+
+/* Inspired by Flat UI Colors
+   http://flatuicolors.com/
+   ========================================================================== */
+
+.SH-turquoise { background-color: rgba(26, 188, 156,1.0); }
+.SH-emerald { background-color: rgba(46, 204, 113,1.0); }
+.SH-peter-river { background-color: rgba(52, 152, 219,1.0); }
+.SH-amethyst { background-color: rgba(155, 89, 182,1.0); }
+.SH-wet-asphalt { background-color: rgba(52, 73, 94,1.0); }
+.SH-green-sea { background-color: rgba(22, 160, 133,1.0); }
+.SH-nephritis { background-color: rgba(39, 174, 96,1.0); }
+.SH-belize-hole { background-color: rgba(41, 128, 185,1.0); }
+.SH-wisteria { background-color: rgba(142, 68, 173,1.0); }
+.SH-midnight-blue { background-color: rgba(44, 62, 80,1.0); }
+.SH-sun-flower { background-color: rgba(241, 196, 15,1.0); }
+.SH-carrot { background-color: rgba(230, 126, 34,1.0); }
+.SH-alizarin { background-color: rgba(231, 76, 60,1.0); }
+.SH-clouds { background-color: rgba(236, 240, 241,1.0); }
+.SH-concrete { background-color: rgba(149, 165, 166,1.0); }
+.SH-orange { background-color: rgba(243, 156, 18,1.0); }
+.SH-pumpkin { background-color: rgba(211, 84, 0,1.0); }
+.SH-pomegranate { background-color: rgba(192, 57, 43,1.0); }
+.SH-silver { background-color: rgba(189, 195, 199,1.0); }
+.SH-asbestos { background-color: rgba(127, 140, 141,1.0); }
+
+/* ==========================================================================
+   11. MEDIA QUERIES
    ========================================================================== */
 
 .SH-hidden {
@@ -354,10 +385,10 @@
 }
 
 /* ==========================================================================
-   11. EFFECTS
+   12. EFFECTS
    ========================================================================== */
 
-/* 11.1. EFFECT SMOOTH
+/* 12.1. EFFECT SMOOTH
    ========================================================================== */
 
 .SH-smooth-2 {
@@ -372,7 +403,7 @@
 	transition: all 0.5s ease;
 }
 
-/* 11.2. EFFECT BLINK
+/* 12.2. EFFECT BLINK
    ========================================================================== */
 
 @-webkit-keyframes blink {
@@ -400,7 +431,7 @@
 	animation: blink 1s infinite;
 }
 
-/* 11.3. EFFECT SPIN
+/* 12.3. EFFECT SPIN
    ========================================================================== */
 
 @-webkit-keyframes spin {
@@ -422,7 +453,7 @@
 	animation: spin 2s infinite linear;
 }
 
-/* 11.4. EFFECT ROTATE
+/* 12.4. EFFECT ROTATE
    ========================================================================== */
 
 .SH-rotate-90 {
@@ -449,7 +480,7 @@
 	transform: rotate(270deg);
 }
 
-/* 11.5. EFFECT FLIP
+/* 12.5. EFFECT FLIP
    ========================================================================== */
 
 /* horizontal */
