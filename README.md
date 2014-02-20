@@ -2,7 +2,7 @@
 
 Collection CSS helpful for the daily work with HTML.
 
-Inspired by brunomonteiro3 [HelperCSS](https://github.com/brunomonteiro3/HelperCSS "HelperCSS").
+Inspired by *brunomonteiro3* [HelperCSS](https://github.com/brunomonteiro3/HelperCSS "HelperCSS").
 
 **Notice:** the suggested names for the classes on this files are the shortest as possible, in some cases it can make your code unreadable in team works, so feel free to change the name of the class to suit the way you work.
 
@@ -30,6 +30,26 @@ Example of **bold** title:
 Example of *italic* title:
 
       <h1 class="SH-i">Example title</h1>
+      
+### Example 3
+
+Example of text with size 11px and aligment for right:
+
+      <p class="SH-f11 SH-tar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+### Example 4
+
+Example of icon spin:
+
+      <div class="SH-spin">
+        <img src="/img/loader.png" alt="">
+      </div>
+      
+### Example 5
+
+Example of `div` with background blue and border radius of 5px:
+
+      <div class="SH-w100-px SH-h100-px SH-radius5 SH-blue"></div>
 
 ## Browser Support
 
