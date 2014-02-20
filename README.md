@@ -1,10 +1,35 @@
 ![image slim-helper-css](https://raw.github.com/brenopolanski/slim-helper-css/gh-assets/slim-helper-css.png)
 
-CSS class collection helpful for the daily work with HTML.
+Collection CSS helpful for the daily work with HTML.
 
-Inspired by [HelperCSS](https://github.com/brunomonteiro3/HelperCSS "HelperCSS").
+Inspired by brunomonteiro3 [HelperCSS](https://github.com/brunomonteiro3/HelperCSS "HelperCSS").
 
 **Notice:** the suggested names for the classes on this files are the shortest as possible, in some cases it can make your code unreadable in team works, so feel free to change the name of the class to suit the way you work.
+
+## First steps
+
+1. Clone project: `git clone https://github.com/brenopolanski/slim-helper-css`
+2. Insert the `slim-helper.css` in your project:
+
+  ```
+  <link rel="stylesheet" href="/css/slim-helper.css">
+  ```
+  
+## Usage
+
+Using `slim-helper.css`, your other CSS files will have the lines reduced because you'll avoid using default settings in different classes.
+
+### Example 1
+
+Example of **bold** title:
+
+      <h1 class="SH-b">Example title</h1>
+      
+### Example 2
+
+Example of *italic* title:
+
+      <h1 class="SH-i">Example title</h1>
 
 ## Browser Support
 
