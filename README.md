@@ -70,3 +70,7 @@ English is the universal language nowadays, so please don't create or comment on
 ## History
 
 For detailed changelog, see [Releases](https://github.com/brenopolanski/slim-helper-css/releases "Releases").
+
+## License
+
+Licensed under BSD.
