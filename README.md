@@ -73,4 +73,4 @@ For detailed changelog, see [Releases](https://github.com/brenopolanski/slim-hel
 
 ## License
 
-Licensed under BSD.
+[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
