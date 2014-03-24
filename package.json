@@ -16,7 +16,7 @@
     "web": "http://brenopolanski.com",
     "twitter": "brenopolanski"
   },
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/brenopolanski/slim-helper-css/issues"
   },
