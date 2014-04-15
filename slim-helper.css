@@ -5,7 +5,7 @@
 * http://brenopolanski.mit-license.org
 *
 * @author Breno Polanski <breno.polanski@gmail.com>
-* Release version 0.2.0
+* Release version 0.2.1
 *
 * Summary:
 *
@@ -151,29 +151,39 @@
 
 /* pixel */
 
-.sh-w100-px { width: 100px; }
-.sh-w200-px { width: 200px; }
-.sh-w300-px { width: 300px; }
-.sh-w400-px { width: 400px; }
-.sh-w500-px { width: 500px; }
-.sh-w600-px { width: 600px; }
-.sh-w700-px { width: 700px; }
-.sh-w800-px { width: 800px; }
-.sh-w900-px { width: 900px; }
-.sh-w1k-px { width: 1000px; }
+.sh-w10-px { width: 10px !important; }
+.sh-w20-px { width: 20px !important; }
+.sh-w30-px { width: 30px !important; }
+.sh-w40-px { width: 40px !important; }
+.sh-w50-px { width: 50px !important; }
+.sh-w60-px { width: 60px !important; }
+.sh-w70-px { width: 70px !important; }
+.sh-w80-px { width: 80px !important; }
+.sh-w90-px { width: 90px !important; }
+
+.sh-w100-px { width: 100px !important; }
+.sh-w200-px { width: 200px !important; }
+.sh-w300-px { width: 300px !important; }
+.sh-w400-px { width: 400px !important; }
+.sh-w500-px { width: 500px !important; }
+.sh-w600-px { width: 600px !important; }
+.sh-w700-px { width: 700px !important; }
+.sh-w800-px { width: 800px !important; }
+.sh-w900-px { width: 900px !important; }
+.sh-w1k-px { width: 1000px !important; }
 
 /* percent */
 
-.sh-w10-pct { width: 10%; }
-.sh-w20-pct { width: 20%; }
-.sh-w30-pct { width: 30%; }
-.sh-w40-pct { width: 40%; }
-.sh-w50-pct { width: 50%; }
-.sh-w60-pct { width: 60%; }
-.sh-w70-pct { width: 70%; }
-.sh-w80-pct { width: 80%; }
-.sh-w90-pct { width: 90%; }
-.sh-w100-pct { width: 100%; }
+.sh-w10-pct { width: 10% !important; }
+.sh-w20-pct { width: 20% !important; }
+.sh-w30-pct { width: 30% !important; }
+.sh-w40-pct { width: 40% !important; }
+.sh-w50-pct { width: 50% !important; }
+.sh-w60-pct { width: 60% !important; }
+.sh-w70-pct { width: 70% !important; }
+.sh-w80-pct { width: 80% !important; }
+.sh-w90-pct { width: 90% !important; }
+.sh-w100-pct { width: 100% !important; }
 
 /* ==========================================================================
    5. HEIGHT
@@ -181,29 +191,29 @@
 
 /* pixel */
 
-.sh-h100-px { height: 100px; }
-.sh-h200-px { height: 200px; }
-.sh-h300-px { height: 300px; }
-.sh-h400-px { height: 400px; }
-.sh-h500-px { height: 500px; }
-.sh-h600-px { height: 600px; }
-.sh-h700-px { height: 700px; }
-.sh-h800-px { height: 800px; }
-.sh-h900-px { height: 900px; }
-.sh-h1k-px { height: 1000px; }
+.sh-h100-px { height: 100px !important; }
+.sh-h200-px { height: 200px !important; }
+.sh-h300-px { height: 300px !important; }
+.sh-h400-px { height: 400px !important; }
+.sh-h500-px { height: 500px !important; }
+.sh-h600-px { height: 600px !important; }
+.sh-h700-px { height: 700px !important; }
+.sh-h800-px { height: 800px !important; }
+.sh-h900-px { height: 900px !important; }
+.sh-h1k-px { height: 1000px !important; }
 
 /* percent */
 
-.sh-h10-pct { height: 10%; }
-.sh-h20-pct { height: 20%; }
-.sh-h30-pct { height: 30%; }
-.sh-h40-pct { height: 40%; }
-.sh-h50-pct { height: 50%; }
-.sh-h60-pct { height: 60%; }
-.sh-h70-pct { height: 70%; }
-.sh-h80-pct { height: 80%; }
-.sh-h90-pct { height: 90%; }
-.sh-h100-pct { height: 100%; }
+.sh-h10-pct { height: 10% !important; }
+.sh-h20-pct { height: 20% !important; }
+.sh-h30-pct { height: 30% !important; }
+.sh-h40-pct { height: 40% !important; }
+.sh-h50-pct { height: 50% !important; }
+.sh-h60-pct { height: 60% !important; }
+.sh-h70-pct { height: 70% !important; }
+.sh-h80-pct { height: 80% !important; }
+.sh-h90-pct { height: 90% !important; }
+.sh-h100-pct { height: 100% !important; }
 
 /* ==========================================================================
    6. FONT SIZES
