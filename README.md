@@ -1,4 +1,10 @@
-![image slim-helper-css](https://raw.github.com/brenopolanski/slim-helper-css/gh-assets/slim-helper-css.png)
+# Slim Helper CSS
+
+<img
+    src="https://raw.github.com/brenopolanski/slim-helper-css/gh-assets/slim-helper-css.png"
+    alt="Slim Helper CSS"
+    align="right"
+/>
 
 Collection CSS helpful for the daily work with HTML.
 
