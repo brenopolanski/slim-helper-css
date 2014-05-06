@@ -5,7 +5,7 @@
 * http://brenopolanski.mit-license.org
 *
 * @author Breno Polanski <breno.polanski@gmail.com>
-* Release version 0.2.1
+* Release version 0.3.0
 *
 * Summary:
 *
@@ -15,25 +15,27 @@
 *	3. BLOCK POSITIONS
 *	4. WIDTH
 *	5. HEIGHT
-*	6. FONT SIZES
-*	7. FONT/TEXT SETTINGS
-*	8. OTHERS
-*	9. BORDER RADIUS
-*	10. FLAT UI COLORS
-*	11. MEDIA QUERIES
-*	12. EFFECTS
-*		- 12.1. EFFECT SMOOTH
-*		- 12.2. EFFECT BLINK
-*		- 12.3. EFFECT SPIN
-*		- 12.4. EFFECT ROTATE
-*		- 12.5. EFFECT FLIP
+*	6. LINE HEIGHT
+*	7. FONT SIZES
+*	8. FONT/TEXT SETTINGS
+*	9. CURSOR
+*	10. OTHERS
+*	11. BORDER RADIUS
+*	12. FLAT UI COLORS
+*	13. MEDIA QUERIES
+*	14. EFFECTS
+*		- 14.1. EFFECT SMOOTH
+*		- 14.2. EFFECT BLINK
+*		- 14.3. EFFECT SPIN
+*		- 14.4. EFFECT ROTATE
+*		- 14.5. EFFECT FLIP
 */
 
 /* ==========================================================================
    0. BORDERS
    ========================================================================== */
 
-.sh-bn { border: none !important; }
+.sh-bn  { border: none !important; }
 .sh-btn { border-top: none !important; }
 .sh-brn { border-right: none !important; }
 .sh-bbn { border-bottom: none !important; }
@@ -43,7 +45,7 @@
    1. MARGINS
    ========================================================================== */
 
-.sh-m5 { margin: 5px; }
+.sh-m5  { margin: 5px; }
 .sh-m10 { margin: 10px; }
 .sh-m15 { margin: 15px; }
 .sh-m20 { margin: 20px; }
@@ -84,7 +86,7 @@
    2. PADDINGS
    ========================================================================== */
 
-.sh-p5 { padding: 5px; }
+.sh-p5  { padding: 5px; }
 .sh-p10 { padding: 10px; }
 .sh-p15 { padding: 15px; }
 .sh-p20 { padding: 20px; }
@@ -131,7 +133,7 @@
 .sh-pos-abs { position: absolute; }
 .sh-pos-fxd { position: fixed; }
 
-.sh-left { float: left !important; }
+.sh-left  { float: left !important; }
 .sh-right { float: right !important; }
 
 .sh-center-block {
@@ -170,19 +172,19 @@
 .sh-w700-px { width: 700px !important; }
 .sh-w800-px { width: 800px !important; }
 .sh-w900-px { width: 900px !important; }
-.sh-w1k-px { width: 1000px !important; }
+.sh-w1k-px  { width: 1000px !important; }
 
 /* percent */
 
-.sh-w10-pct { width: 10% !important; }
-.sh-w20-pct { width: 20% !important; }
-.sh-w30-pct { width: 30% !important; }
-.sh-w40-pct { width: 40% !important; }
-.sh-w50-pct { width: 50% !important; }
-.sh-w60-pct { width: 60% !important; }
-.sh-w70-pct { width: 70% !important; }
-.sh-w80-pct { width: 80% !important; }
-.sh-w90-pct { width: 90% !important; }
+.sh-w10-pct  { width: 10% !important; }
+.sh-w20-pct  { width: 20% !important; }
+.sh-w30-pct  { width: 30% !important; }
+.sh-w40-pct  { width: 40% !important; }
+.sh-w50-pct  { width: 50% !important; }
+.sh-w60-pct  { width: 60% !important; }
+.sh-w70-pct  { width: 70% !important; }
+.sh-w80-pct  { width: 80% !important; }
+.sh-w90-pct  { width: 90% !important; }
 .sh-w100-pct { width: 100% !important; }
 
 /* ==========================================================================
@@ -200,23 +202,31 @@
 .sh-h700-px { height: 700px !important; }
 .sh-h800-px { height: 800px !important; }
 .sh-h900-px { height: 900px !important; }
-.sh-h1k-px { height: 1000px !important; }
+.sh-h1k-px  { height: 1000px !important; }
 
 /* percent */
 
-.sh-h10-pct { height: 10% !important; }
-.sh-h20-pct { height: 20% !important; }
-.sh-h30-pct { height: 30% !important; }
-.sh-h40-pct { height: 40% !important; }
-.sh-h50-pct { height: 50% !important; }
-.sh-h60-pct { height: 60% !important; }
-.sh-h70-pct { height: 70% !important; }
-.sh-h80-pct { height: 80% !important; }
-.sh-h90-pct { height: 90% !important; }
+.sh-h10-pct  { height: 10% !important; }
+.sh-h20-pct  { height: 20% !important; }
+.sh-h30-pct  { height: 30% !important; }
+.sh-h40-pct  { height: 40% !important; }
+.sh-h50-pct  { height: 50% !important; }
+.sh-h60-pct  { height: 60% !important; }
+.sh-h70-pct  { height: 70% !important; }
+.sh-h80-pct  { height: 80% !important; }
+.sh-h90-pct  { height: 90% !important; }
 .sh-h100-pct { height: 100% !important; }
 
 /* ==========================================================================
-   6. FONT SIZES
+   6. LINE HEIGHT
+   ========================================================================== */
+
+.sh-lh150-pct { line-height: 150%; }
+.sh-lh200-pct { line-height: 200%; }
+.sh-lh250-pct { line-height: 250%; }
+
+/* ==========================================================================
+   7. FONT SIZES
    ========================================================================== */
 
 .sh-f10 { font-size: 10px; }
@@ -242,7 +252,7 @@
 .sh-f30 { font-size: 30px; }
 
 /* ==========================================================================
-   7. FONT/TEXT SETTINGS
+   8. FONT/TEXT SETTINGS
    ========================================================================== */
 
 .sh-b { font-weight: bold; }
@@ -254,71 +264,106 @@
 .sh-tac { text-align: center; }
 .sh-taj { text-align: justify; }
 
+.sh-tdn { text-decoration: none; }
 .sh-tdu { text-decoration: underline; }
 
 .sh-ttc { text-transform: capitalize; }
 .sh-ttu { text-transform: uppercase; }
 .sh-ttl { text-transform: lowercase; }
 
-.sh-wsn { white-space: nowrap; }
+.sh-wsn  { white-space: nowrap; }
 .sh-wspw { white-space: pre-wrap; }
 .sh-wspl { white-space: pre-line; }
 
 /* ==========================================================================
-   8. OTHERS
+   9. CURSOR
+   ========================================================================== */
+
+.sh-c-auto          { cursor: auto; }
+.sh-c-default       { cursor: default; }
+.sh-c-none          { cursor: none; }
+.sh-c-context-menu  { cursor: context-menu; }
+.sh-c-help          { cursor: help; }
+.sh-c-pointer       { cursor: pointer; }
+.sh-c-progress      { cursor: progress; }
+.sh-c-wait          { cursor: wait; }
+.sh-c-cell          { cursor: cell; }
+.sh-c-crosshair     { cursor: crosshair; }
+.sh-c-text          { cursor: text; }
+.sh-c-vertical-text { cursor: vertical-text; }
+.sh-c-alias         { cursor: alias; }
+.sh-c-copy          { cursor: copy; }
+.sh-c-move          { cursor: move; }
+.sh-c-no-drop       { cursor: no-drop; }
+.sh-c-not-allowed   { cursor: not-allowed; }
+.sh-c-all-scroll    { cursor: all-scroll; }
+.sh-c-col-resize    { cursor: col-resize; }
+.sh-c-row-resize    { cursor: row-resize; }
+.sh-c-n-resize      { cursor: n-resize; }
+.sh-c-e-resize      { cursor: e-resize; }
+.sh-c-s-resize      { cursor: s-resize; }
+.sh-c-w-resize      { cursor: w-resize; }
+.sh-c-ns-resize     { cursor: ns-resize; }
+.sh-c-ew-resize     { cursor: ew-resize; }
+.sh-c-ne-resize     { cursor: ne-resize; }
+.sh-c-nw-resize     { cursor: nw-resize; }
+.sh-c-se-resize     { cursor: se-resize; }
+.sh-c-sw-resize     { cursor: sw-resize; }
+.sh-c-nesw-resize   { cursor: nesw-resize; }
+.sh-c-nwse-resize   { cursor: nwse-resize; }
+
+/* ==========================================================================
+   10. OTHERS
    ========================================================================== */
 
 .sh-crop { overflow: hidden; }
-.sh-li { list-style: none !important; }
-.sh-txtarea-outln:focus, .sh-input-outln:focus { outline: none !important; }
+.sh-li   { list-style: none !important; }
+
+.sh-txtarea-outln:focus,
+.sh-input-outln:focus {
+	outline: none !important;
+}
 
 /* ==========================================================================
-   9. BORDER RADIUS
+   11. BORDER RADIUS
    ========================================================================== */
 
-.sh-radius5 {
-	border-radius: 5px;
-}
-
-.sh-radius10 {
-	border-radius: 10px;
-}
-
-.sh-radius20 {
-	border-radius: 20px;
-}
+.sh-radius5  { border-radius: 5px; }
+.sh-radius10 { border-radius: 10px; }
+.sh-radius15 { border-radius: 15px; }
+.sh-radius20 { border-radius: 20px; }
 
 /* ==========================================================================
-   10. FLAT UI COLORS
+   12. FLAT UI COLORS
    ========================================================================== */
 
 /* Inspired by Flat UI Colors
    http://flatuicolors.com/
    ========================================================================== */
 
-.sh-turquoise { background-color: rgba(26, 188, 156,1.0); }
-.sh-emerald { background-color: rgba(46, 204, 113,1.0); }
-.sh-peter-river { background-color: rgba(52, 152, 219,1.0); }
-.sh-amethyst { background-color: rgba(155, 89, 182,1.0); }
-.sh-wet-asphalt { background-color: rgba(52, 73, 94,1.0); }
-.sh-green-sea { background-color: rgba(22, 160, 133,1.0); }
-.sh-nephritis { background-color: rgba(39, 174, 96,1.0); }
-.sh-belize-hole { background-color: rgba(41, 128, 185,1.0); }
-.sh-wisteria { background-color: rgba(142, 68, 173,1.0); }
+.sh-turquoise     { background-color: rgba(26, 188, 156,1.0); }
+.sh-emerald       { background-color: rgba(46, 204, 113,1.0); }
+.sh-peter-river   { background-color: rgba(52, 152, 219,1.0); }
+.sh-amethyst      { background-color: rgba(155, 89, 182,1.0); }
+.sh-wet-asphalt   { background-color: rgba(52, 73, 94,1.0); }
+.sh-green-sea     { background-color: rgba(22, 160, 133,1.0); }
+.sh-nephritis     { background-color: rgba(39, 174, 96,1.0); }
+.sh-belize-hole   { background-color: rgba(41, 128, 185,1.0); }
+.sh-wisteria      { background-color: rgba(142, 68, 173,1.0); }
 .sh-midnight-blue { background-color: rgba(44, 62, 80,1.0); }
-.sh-sun-flower { background-color: rgba(241, 196, 15,1.0); }
-.sh-carrot { background-color: rgba(230, 126, 34,1.0); }
-.sh-alizarin { background-color: rgba(231, 76, 60,1.0); }
-.sh-clouds { background-color: rgba(236, 240, 241,1.0); }
-.sh-concrete { background-color: rgba(149, 165, 166,1.0); }
-.sh-orange { background-color: rgba(243, 156, 18,1.0); }
-.sh-pumpkin { background-color: rgba(211, 84, 0,1.0); }
-.sh-pomegranate { background-color: rgba(192, 57, 43,1.0); }
-.sh-silver { background-color: rgba(189, 195, 199,1.0); }
-.sh-asbestos { background-color: rgba(127, 140, 141,1.0); }
+.sh-sun-flower    { background-color: rgba(241, 196, 15,1.0); }
+.sh-carrot        { background-color: rgba(230, 126, 34,1.0); }
+.sh-alizarin      { background-color: rgba(231, 76, 60,1.0); }
+.sh-clouds        { background-color: rgba(236, 240, 241,1.0); }
+.sh-concrete      { background-color: rgba(149, 165, 166,1.0); }
+.sh-orange        { background-color: rgba(243, 156, 18,1.0); }
+.sh-pumpkin       { background-color: rgba(211, 84, 0,1.0); }
+.sh-pomegranate   { background-color: rgba(192, 57, 43,1.0); }
+.sh-silver        { background-color: rgba(189, 195, 199,1.0); }
+.sh-asbestos      { background-color: rgba(127, 140, 141,1.0); }
 
 /* ==========================================================================
-   11. MEDIA QUERIES
+   13. MEDIA QUERIES
    ========================================================================== */
 
 .sh-hidden {
@@ -326,70 +371,37 @@
     visibility: hidden;
 }
 
-.sh-visible-phone {
-    display: none !important;
-}
-
-.sh-visible-tablet {
-    display: none !important;
-}
-
-.sh-hidden-desktop {
-    display: none !important;
-}
-
-.sh-visible-desktop {
-    display: inherit !important;
-}
+.sh-visible-phone   { display: none !important; }
+.sh-visible-tablet  { display: none !important; }
+.sh-hidden-desktop  { display: none !important; }
+.sh-visible-desktop { display: inherit !important; }
 
 @media (min-width: 768px) and (max-width: 979px) {
-	.sh-hidden-desktop {
-    	display: inherit !important;
-    }
-    .sh-visible-desktop {
-        display: none !important ;
-    }
-    .sh-visible-tablet {
-        display: inherit !important;
-    }
-    .sh-hidden-tablet {
-        display: none !important;
-    }
+	.sh-hidden-desktop  { display: inherit !important; }
+    .sh-visible-desktop { display: none !important ; }
+    .sh-visible-tablet  { display: inherit !important; }
+    .sh-hidden-tablet   { display: none !important; }
 }
 
 @media (max-width: 767px) {
-    .sh-hidden-desktop {
-        display: inherit !important;
-    }
-    .sh-visible-desktop {
-        display: none !important;
-    }
-    .sh-visible-phone {
-        display: inherit !important;
-    }
-    .sh-hidden-phone {
-        display: none !important;
-    }
+    .sh-hidden-desktop  { display: inherit !important; }
+    .sh-visible-desktop { display: none !important; }
+    .sh-visible-phone   { display: inherit !important; }
+    .sh-hidden-phone    { display: none !important; }
 }
 
-.sh-visible-print {
-    display: none !important;
-}
+.sh-visible-print { display: none !important; }
 
 @media print {
-    .sh-visible-print {
-        display: inherit !important;
-    }
-    .sh-hidden-print {
-        display: none !important;
-    }
+    .sh-visible-print { display: inherit !important; }
+    .sh-hidden-print  { display: none !important; }
 }
 
 /* ==========================================================================
-   12. EFFECTS
+   14. EFFECTS
    ========================================================================== */
 
-/* 12.1. EFFECT SMOOTH
+/* 14.1. EFFECT SMOOTH
    ========================================================================== */
 
 .sh-smooth-2 {
@@ -402,19 +414,19 @@
 	transition: all 0.5s ease;
 }
 
-/* 12.2. EFFECT BLINK
+/* 14.2. EFFECT BLINK
    ========================================================================== */
 
 @-webkit-keyframes blink {
-	0% { opacity: 1; }
-	80% { opacity: 1; }
-	81% { opacity: 0; }
+	0%   { opacity: 1; }
+	80%  { opacity: 1; }
+	81%  { opacity: 0; }
 	100% { opacity: 0; }
 }
 @keyframes blink {
-	0% { opacity: 1; }
-	80% { opacity: 1; }
-	81% { opacity: 0; }
+	0%   { opacity: 1; }
+	80%  { opacity: 1; }
+	81%  { opacity: 0; }
 	100% { opacity: 0; }
 }
 
@@ -423,15 +435,15 @@
 	animation: blink 1s infinite;
 }
 
-/* 12.3. EFFECT SPIN
+/* 14.3. EFFECT SPIN
    ========================================================================== */
 
 @-webkit-keyframes spin {
-	0% { -webkit-transform: rotate(0deg); }
+	0%   { -webkit-transform: rotate(0deg); }
 	100% { -webkit-transform: rotate(359deg); }
 }
 @keyframes spin {
-	0% { -webkit-transform: rotate(0deg); }
+	0%   { -webkit-transform: rotate(0deg); }
 	100% { -webkit-transform: rotate(359deg); }
 }
 
@@ -440,7 +452,7 @@
 	animation: spin 2s infinite linear;
 }
 
-/* 12.4. EFFECT ROTATE
+/* 14.4. EFFECT ROTATE
    ========================================================================== */
 
 .sh-rotate-90 {
@@ -464,7 +476,7 @@
 	transform: rotate(270deg);
 }
 
-/* 12.5. EFFECT FLIP
+/* 14.5. EFFECT FLIP
    ========================================================================== */
 
 /* horizontal */
