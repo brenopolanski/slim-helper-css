@@ -1,13 +1,13 @@
 {
   "name": "slim-helper-css",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Collection CSS helpful for the daily work with HTML",
   "repository": {
     "type": "git",
     "url": "https://github.com/brenopolanski/slim-helper-css"
   },
   "keywords": [
-    "CSS",
+    "css",
     "helpers"
   ],
   "author": {
